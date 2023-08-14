@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sqlalchemy-study"
+version = "0.1.0"
+description = ""
+authors = ["sucream <ghdskatnghds@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sqlalchemy_study"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
